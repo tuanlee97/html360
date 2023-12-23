@@ -262,7 +262,9 @@ body {
 
   .skew-bg {
     height:  100%;
-    aspect-ratio: 902/460;
+    padding-top : 50%; 
+    /*aspect-ratio: 902/460;*/
+   
     width: 100%;
   }
 
