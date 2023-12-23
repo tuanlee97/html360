@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mulish Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Nail 360</title>
+</head>
+
+<body>
+    <section class="section-wrap section-shadow">
+        <div class="position-relative">
+            <div class="bg-element"></div>
+            <div class="overlay-element">
+                <h1>Discover <span class="text-purple">nail360</span> Pro in Action</h1>
+                <div class="feature-video-container">
+                    <div class="skew-bg"></div>
+                    <div class="feature-video">
+                        <div class="feature-video_wrap">
+                            <div class="shadow-bg"></div>
+                            <button id="btnPlayVideo" class="overlay-btn play-btn">
+                                <svg width="59" height="59" viewBox="0 0 59 59" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M26.3291 17.0156L42.6416 26.9844C43.4346 27.4375 44.001 28.3438 44.001 29.25C44.001 30.2695 43.4346 31.1758 42.6416 31.6289L26.3291 41.5977C25.876 41.8242 25.4229 41.9375 24.9697 41.9375C23.3838 41.9375 22.251 40.6914 22.251 39.2188V19.2812C22.251 17.9219 23.3838 16.5625 24.9697 16.5625C25.4229 16.5625 25.876 16.7891 26.3291 17.0156ZM25.876 37.6328L39.4697 29.3633L25.876 20.9805V37.6328ZM29.501 0.25C45.4736 0.25 58.501 13.2773 58.501 29.25C58.501 45.3359 45.4736 58.25 29.501 58.25C13.415 58.25 0.500977 45.3359 0.500977 29.25C0.500977 13.2773 13.415 0.25 29.501 0.25ZM29.501 54.625C43.4346 54.625 54.876 43.2969 54.876 29.25C54.876 15.3164 43.4346 3.875 29.501 3.875C15.4541 3.875 4.12598 15.3164 4.12598 29.25C4.12598 43.2969 15.4541 54.625 29.501 54.625Z"
+                                        fill="#850000" />
+                                </svg>
+                            </button>
+                            <button id="btnPauseVideo" class="overlay-btn pause-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="59" width="59" fill="#850000"
+                                    viewBox="0 0 320 512">
+                                    <path
+                                        d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z" />
+                                </svg>
+                            </button>
+                            <video id="ftVideo"
+                                poster="https://i.upanh.org/2023/12/22/Rectangle-8863e294be1f9ee156.png">
+                                <source
+                                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                                    type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <h1>
+                    So much more than an online
+                    <span class="text-purple"> Booking Platform</span>
+                </h1>
+                <div class="slider-wrap swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="calendar_icon" loading="lazy"
+                                src="./img/calendar.svg" />
+                            <h2 class="slider_item--title">Calendar</h2>
+                            <div class="slider_item--paragraph">
+                                <p>A versatile scheduler that always stays up to date.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="booking_icon" loading="lazy" src="./img/booking.svg" />
+                            <h2 class="slider_item--title">Online Booking</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Send clients to your Vagaro Page to book on any device.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="payment_icon" loading="lazy" src="./img/payment.svg" />
+                            <h2 class="slider_item--title">Payments</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Accept payments securely from anywhere.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="alarm_icon" loading="lazy" src="./img/alarm.svg" />
+                            <h2 class="slider_item--title">Notifications</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Automatically notify your clients with reminders.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="calendar_icon" loading="lazy"
+                                src="./img/calendar.svg" />
+                            <h2 class="slider_item--title">Calendar</h2>
+                            <div class="slider_item--paragraph">
+                                <p>A versatile scheduler that always stays up to date.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="booking_icon" loading="lazy" src="./img/booking.svg" />
+                            <h2 class="slider_item--title">Online Booking</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Send clients to your Vagaro Page to book on any device.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="payment_icon" loading="lazy" src="./img/payment.svg" />
+                            <h2 class="slider_item--title">Payments</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Accept payments securely from anywhere.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="slider_item--icon" alt="alarm_icon" loading="lazy" src="./img/alarm.svg" />
+                            <h2 class="slider_item--title">Notifications</h2>
+                            <div class="slider_item--paragraph">
+                                <p>Automatically notify your clients with reminders.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="text-center">
+                    <button class="booking-btn">Get Started Now!</button>
+                </div>
+            </div>
+        </div>
+        <div class="space-5"></div>
+    </section>
+
+</body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="./script.js"></script>
+
+</html>
