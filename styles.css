@@ -45,7 +45,7 @@ body {
   background: none;
   cursor: pointer;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -58,6 +58,7 @@ body {
 }
 
 .pause-btn {
+  z-index: 3;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.15s ease 0s;
@@ -184,6 +185,7 @@ body {
 
 .shadow-bg {
   position: absolute;
+  z-index: 1;
   background: #682243;
   top: 0;
   width: 100%;
@@ -234,6 +236,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  z-index: 2;
   top: 0;
   border-radius: 16px;
 }
