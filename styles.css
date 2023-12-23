@@ -211,6 +211,7 @@ body {
 
 .feature-video {
   position: absolute;
+  z-index: 1;
   top: 0px;
   height: 100%;
   left: 50%;
