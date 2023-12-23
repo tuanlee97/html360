@@ -196,6 +196,8 @@ body {
 }
 
 .skew-bg {
+  z-index: 1;
+  position: relative;
   height: 460px;
   width: 100%;
   border-radius: 16px;
